@@ -15,7 +15,7 @@ def check_password():
         st.title("🔒 Bitte anmelden")
         pw = st.text_input("Passwort eingeben", type="password")
         if st.button("Anmelden"):
-            if pw == "Imker2026": 
+            if pw == "Gnupatsch#12": 
                 st.session_state["password_correct"] = True
                 st.rerun()
             else:
